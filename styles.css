@@ -280,7 +280,14 @@ header {
 
 
 @media screen and (max-width: 768px) {
-.works img {
+    .image-wrap {
+        /* aspect-ratio: 16/9; */
+
+    }
+
+
+.image-wrap img {
+    width: 70vw;
     height: auto;
 }
 /* 😊😊😊😊😊 */
@@ -289,7 +296,7 @@ header {
     margin: 0 auto 35vh;
 }
 
-.righ-wrapper img {
+.right-wrapper img {
     width: 50%;
 }
 }
@@ -313,15 +320,9 @@ header {
 
 
 .image-wrap img, .right-wrapper img {
-    /* position: absolute;
-    top: 10%;
-    left: 10%;
-    transform: translate(-5%,-5%);
-    width: 100%;
-    height: 100%;
- */
-    height: 300px;
-    width: 100%;
+
+    /* height: 300px;
+    width: 100%; */
 }
 
 
@@ -374,7 +375,7 @@ header {
     }
 
 
-    .flex-item img {
+    .image-wrap img {
         width: 80%;
         height: auto;
     }
